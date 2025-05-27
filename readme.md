@@ -4,6 +4,16 @@ This project benchmarks **CPU usage** under a simulated DoS attack using `hping3
 
 ---
 
+```bash
+# run this first
+
+make
+
+./attach.sh
+
+go mod tidy
+```
+
 ## 🔧 Requirements
 
 - Ubuntu/Debian-based system
